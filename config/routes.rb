@@ -6,3 +6,6 @@ Rails.application.routes.draw do
 
   resources :doses, only: [:edit, :update, :destroy]
 end
+
+# AJOUTER UNE DOSE
+# ON SUPPRIME UEN DOSE PAS UN COCKTAIL
